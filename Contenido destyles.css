@@ -1,0 +1,17 @@
+.btn-primary {
+    background-color: #ff5733; /* Cambia el color de fondo del botón */
+}
+
+.card {
+    transition: transform 0.3s; /* Añade una transición suave */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño de la tarjeta al pasar el ratón */
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        background-color: #343a40; /* Cambia el color de la navbar en pantallas pequeñas */
+    }
+}
